@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>gannet_thruster_fw</name>
+  <version>1.0.0</version>
+  <description>
+    The thruster firmware package for the Gannet autonomous boat.
+  </description>
+
+  <maintainer email="jmall@cim.mcgill.ca">Jeremy Mallette</maintainer>
+
+  <license>LGPLv3</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <depend>message_generation</depend>
+  <depend>roscpp</depend>
+  <depend>rosserial_arduino</depend>
+  <depend>rosserial_client</depend>
+
+  <exec_depend>rosserial_python</exec_depend>
+
+</package>
